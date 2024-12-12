@@ -11,12 +11,14 @@ Follow these steps to set up the project locally:
    git clone https://github.com/sahilb16/whatbyte.git
    cd whatbyte_task
    ```
-4. **Apply Migrations**:
+3. **Apply Migrations**:
    ```bash
    python manage.py makemigrations
    python manage.py migrate
    ```
-
+4. **Update the Email Config**:
+   Change your email and the password in the settings.py file
+   
 5. **Run the Development Server**:
    ```bash
    python manage.py runserver
